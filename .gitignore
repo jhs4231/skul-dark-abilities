@@ -1,0 +1,18 @@
+# Whitelist only project-owned source, documentation, scripts, and the mod artifact.
+/*
+!/.gitignore
+!/README.md
+!/VERIFICATION.md
+!/IMPLEMENTATION.md
+!/build.ps1
+!/install.ps1
+!/src/
+/src/*
+!/src/*.cs
+!/docs/
+/docs/*
+!/docs/*.md
+!/dist/
+/dist/*
+!/dist/FanDarkAbilities.dll
+!/dist/SHA256SUMS.txt
